@@ -1,0 +1,186 @@
+.keyboard {
+    padding: 20px 10px;
+    width: 90vw;
+    min-height: 500px;
+    padding: 15px 15px 0px 15px;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 5px 5px 5px 5px gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.keys {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.keys-sec1 {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+
+.keys-sec2 {
+    display: flex;
+    width: 18%;
+}
+
+.keys-row {
+    display: flex;
+    gap: 0.8%;
+}
+
+#Escape,
+#Delete {
+    width: 7%;
+}
+
+.fn-key {
+    width: 6%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#F5,
+#F9,
+#Insert {
+    margin-left: 0.8%;
+}
+
+#Backquote {
+    width: 5%;
+}
+
+#Backspace {
+    width: 10%;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    width: 6.5%;
+    height: 6.8vh;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#Tab {
+    width: 8%;
+}
+
+.shift {
+    width: 13%;
+}
+
+.icon {
+    width: 25px;
+}
+
+.left-icon {
+    width: 15px;
+    transform: rotate(180deg);
+    filter: invert(1) brightness(2);
+}
+
+.right-icon {
+    width: 15px;
+    filter: invert(1) brightness(2);
+}
+
+#CapsLock,
+#Enter {
+    width: 10%;
+}
+
+#ControlLeft,
+#up-dn {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    width: 5.7%;
+    height: 6.8vh;
+}
+
+#ArrowUp, #ArrowDown {
+    width: 100%;
+    height: 49%;
+}
+
+.up-icon {
+    transform: rotate(-90deg);
+    width: 15px;
+    filter: invert(1) brightness(2);
+}
+
+.dn-icon {
+    transform: rotate(90deg);
+    width: 15px;
+    filter: invert(1) brightness(2);
+}
+
+#Space {
+    width: 35.7%;
+}
+
+.keys-sec2-sec1 {
+    width: 50%;
+}
+
+.keys-sec2-sec2 {
+    width: 50%;
+}
+
+.keys-sec2-sec2 {
+    width: 50%;
+    display: flex;
+}
+
+.keys-sec2-sec1-sec1 {
+    display: flex;
+}
+
+.keys-column {
+    width: 50%;
+    margin-left: 8px;
+}
+
+.squar-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.num-key {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#Numpad0 {
+    width: 92.5%;
+    margin-top: 10px;
+}
+
+#NumpadEnter,
+#NumpadAdd {
+    height: 14.7vh;
+}
