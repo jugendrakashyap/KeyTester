@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="keyboard">
       <h1>Key Tester</h1>
+      <p style={{textAlign: "center"}}>Press any key</p>
       <div className="keys">
         <div className="keys-sec1">
           <div className="keys-row">
