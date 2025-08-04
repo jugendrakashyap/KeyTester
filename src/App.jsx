@@ -188,7 +188,7 @@ function App() {
                 <button id="Numpad1" className="key num-key">1</button>
               </div>
               <div className="keys-column">
-                <button id="btn" className="fn-key num-key">end</button>
+                <button id="End" className="fn-key num-key">end</button>
                 <button id="NumpadDivide" className="key num-key">/</button>
                 <button id="Numpad8" className="key num-key">8</button>
                 <button id="Numpad5" className="key num-key">5</button>
